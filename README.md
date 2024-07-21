@@ -63,6 +63,28 @@ This line plot shows the actual house prices (in blue) and the predicted house p
 - The discrepancy between actual and predicted values increases as the house prices increase, indicating that the model struggles with higher-priced houses.
 - The closeness of the blue and orange lines in the lower price range suggests that the model performs better with lower-priced houses.
 
+### Error Distribution Plot Analysis
+![image](https://github.com/user-attachments/assets/2ce4b727-b0f0-47f8-9905-db9bee7bf8ce)
+
+The error distribution plot is a crucial diagnostic tool for evaluating the performance of your house price prediction model. Here’s a detailed analysis of what the plot reveals about the model’s predictions:
+
+#### Key Observations
+
+1. **Centered Around Zero:**
+   - The histogram shows that the majority of prediction errors are centered around zero. This indicates that the model's predictions are, on average, close to the actual house prices.
+
+2. **Symmetrical Distribution:**
+   - The distribution appears to be relatively symmetrical around the zero error mark. This symmetry suggests that the model does not consistently over-predict or under-predict the house prices, which is a desirable characteristic.
+
+3. **Tight Spread:**
+   - Most of the errors are within a narrow range around zero, indicating that the model’s predictions are generally accurate. However, there are some outliers with larger errors, which could be due to atypical data points or areas where the model could be improved.
+
+4. **Presence of Outliers:**
+   - There are some extreme values on both ends of the error spectrum. These outliers may indicate instances where the model struggled to make accurate predictions, possibly due to unusual property features or prices.
+
+5. **Error Magnitude:**
+   - The x-axis scale shows that most prediction errors fall within the range of -0.5e6 to 0.5e6. This range represents the deviation of predicted house prices from actual prices, with a larger concentration of errors close to zero.
+
 
 ## Analysis of Results
 - The training loss decreases significantly, showing that the model is fitting well to the training data.
